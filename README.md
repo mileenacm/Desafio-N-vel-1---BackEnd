@@ -19,7 +19,7 @@ Por outro lado, se a idade for < 65 mas o valor for > 100, aplica-se 10%.
 Os dados de cada compra válida são adicionados à lista historico_compras no formato de um dicionário, guardando tanto o valor bruto quanto o valor final cobrado.
 
 Consulta de Regras (Opção 2)
-Detalha as regras matemáticas do desconto progressivo e pergunta se o usuário deseja voltar ao menu ou desligar o sistema.
+Detalha as regras do desconto progressivo e pergunta se o usuário deseja voltar ao menu ou desligar o sistema.
 
 Resumo e Encerramento (Opção 3)
 Quando o usuário decide sair, a variável maquina se torna False, preparando o programa para desligar. Antes de fechar, o sistema exibe os dados salvos:
@@ -31,7 +31,7 @@ Imprime na tela um relatório com a quantidade de clientes atendidos, o total ve
 ----
 
 Como executar o código:
-É necessário ter Python instalado na sua máquina (versão 3.10 ou superior recomendada devido ao uso do match/case).
+É preciso ter Python instalado na sua máquina (versão 3.10 ou superior recomendada devido ao uso do match/case).
 Salve o código em um arquivo chamado pdv.py, abra o terminal na mesma pasta do arquivo e execute o comando python pdv.py
 
 ----
